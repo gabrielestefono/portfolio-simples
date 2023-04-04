@@ -2,32 +2,25 @@ let links = document.getElementsByClassName('links');
 let show = document.getElementById('show');
 let hamburger = document.getElementById('hamburger');
 
-let ajustarTela = ()=>{
-    if(screen.width <= 768){
+window.onresize = ()=>{
+    if(screen.width > 768 ){
+        show.className = 'header__nav--ul'
         Object.values(links).forEach(value=>{
-            value.classList = 'header__nav--ul_li-a-ativo links link';
-        })
-    }else{
-        Object.values(links).forEach(value=>{
-            value.classList = 'header__nav--ul_li-a links link';
+            value.classList = 'header__nav--ul_li-a links';
         })
     }
 }
-
-window.onresize = ajustarTela
 
 hamburger.addEventListener('click', ()=>{
     if(show.className == 'header__nav--ul'){
         show.className = 'header__nav--ul-ativo'
         Object.values(links).forEach(value=>{
-            value.classList = 'header__nav--ul_li-a-ativo links link';
+            value.classList = 'header__nav--ul_li-a-ativo links';
         })
     }else{
         show.className = 'header__nav--ul'
         Object.values(links).forEach(value=>{
-            value.classList = 'header__nav--ul_li-a links link';
+            value.classList = 'header__nav--ul_li-a links';
         })
     }
 })
-
-ajustarTela();
