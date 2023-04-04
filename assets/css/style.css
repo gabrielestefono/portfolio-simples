@@ -2,6 +2,7 @@
 @import url(header/header.css);
 @import url(hero/hero.css);
 @import url(about/about.css);
+@import url(projects/projects.css);
 
 body {
     font-family: Arial, sans-serif;
