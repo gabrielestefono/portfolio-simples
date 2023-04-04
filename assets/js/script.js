@@ -19,8 +19,14 @@ window.onresize = ajustarTela
 hamburger.addEventListener('click', ()=>{
     if(show.className == 'header__nav--ul'){
         show.className = 'header__nav--ul-ativo'
+        Object.values(links).forEach(value=>{
+            value.classList = 'header__nav--ul_li-a-ativo links link';
+        })
     }else{
         show.className = 'header__nav--ul'
+        Object.values(links).forEach(value=>{
+            value.classList = 'header__nav--ul_li-a links link';
+        })
     }
 })
 
