@@ -4,6 +4,7 @@
 @import url(about/about.css);
 @import url(projects/projects.css);
 @import url(ability/ability.css);
+@import url(contact/contact.css);
 
 body {
     font-family: Arial, sans-serif;

@@ -1,0 +1,58 @@
+/* Contato */
+.contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #333;
+}
+
+.contact__title{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.contact__form--input{
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.contact__form--textarea {
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.contact__form--button {
+    padding: 10px 20px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .contact__form--textarea {
+        height: 400px;
+    }
+}
