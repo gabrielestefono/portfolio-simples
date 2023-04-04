@@ -10,29 +10,35 @@
   <header class="header">
     <img src="assets/img/logo.png" alt="Logo" class="header__logo">
     <nav class="header__nav">
-      <ul class="header__nav--ul">
-        <li class="header__nav--ul_li"><a href="#sobre-mim" class="header__nav--ul_li-a">Sobre mim</a></li>
-        <li class="header__nav--ul_li"><a href="#projetos" class="header__nav--ul_li-a">Projetos</a></li>
-        <li class="header__nav--ul_li"><a href="#habilidades" class="header__nav--ul_li-a">Habilidades</a></li>
-        <li class="header__nav--ul_li"><a href="#contato" class="header__nav--ul_li-a">Contato</a></li>
+      <ul class="header__nav--ul" id="show">
+        <li class="header__nav--ul_li"><a href="#sobre-mim" class="header__nav--ul_li-a links">Sobre mim</a></li>
+        <li class="header__nav--ul_li"><a href="#projetos" class="header__nav--ul_li-a links">Projetos</a></li>
+        <li class="header__nav--ul_li"><a href="#habilidades" class="header__nav--ul_li-a links">Habilidades</a></li>
+        <li class="header__nav--ul_li"><a href="#contato" class="header__nav--ul_li-a links">Contato</a></li>
       </ul>
     </nav>
-    <div class="header__hamburger">&#9776;</div>
+    <div class="header__hamburger" id="hamburger">&#9776;</div>
   </header>
   <section class="hero">
     <h1 class="hero__name">Gabriel Estéfono</h1>
     <p class="hero__presents">Desenvolvedor Full-Stack</p>
     <button class="hero__see">Veja meus projetos</button>
   </section>
-  <section class="about" id="sobre-mim">
+  <section class="about">
     <h2 class="about__title">Sobre mim</h2>
     <div class="about__content">
-      <img src="assets/img/foto.png" alt="Foto do desenvolvedor" class="about__content--profile">
-      <p class="about__content--presents">Texto de apresentação qualquer</p>
-      <a href="curriculo.pdf" class="about__content--cv" download>Baixar currículo</a>
+      <img src="assets/img/foto.png" alt="Foto do desenvolvedor" class="about__content--profile"> 
+        <div class="about__content--box">
+          <p class="about__content--presents">Olá! Meu nome é Gabriel Estéfono.</p>
+          <p class="about__content--presents"> Eu sou um Desenvolvedor Full Stack, apaixonado por criar soluções inovadoras e eficientes. Com habilidade, técnicas e uma mente criativa, estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades e ajudar a transformar ideias em realidade.</p>
+          <p class="about__content--presents">Meu conhecimento em desenvolvimento abrange tanto o front-end quanto o back-end, permitindo-me criar soluções completas e coesas para os mais diversos projetos. No front-end, domino tecnologias como HTML, CSS e JavaScript, além do framework React. Isso me permite criar interfaces de usuário intuitivas, responsivas e atraentes.</p>
+          <p class="about__content--presents">No back-end, tenho experiência em algumas linguagens de programação, como Python, PHP, e Linguagem C, bem como o framework Django. Também tenho experiência com bancos de dados relacionais, como MySQL e PDO.</p>
+          <p class="about__content--presents">Se você está procurando um Desenvolvedor Full Stack motivado, dedicado e altamente qualificado para ajudar a impulsionar seu projeto ou empresa, não hesite em entrar em contato comigo. Estou ansioso para colaborar com você e criar soluções excepcionais juntos!</p>
+        </div>
+        <a href="curriculo.pdf" class="about__content--cv" download>Baixar currículo</a>
     </div>
   </section>
-  <section class="projects" id="projetos">
+  <section class="projects">
     <h2 class="projects__title">Projetos</h2>
     <div class="projects__cards">
       <div class="projects__cards--card">
@@ -48,7 +54,7 @@
       </div>
     </div>
   </section>
-  <section class="ability" id="ability">
+  <section class="ability">
     <h2 class="ability__title">Habilidades</h2>
       <div class="ability__categories">
         <div class="ability__categories--category">
@@ -93,5 +99,6 @@
     </ul>
     <a href="#" class="footer__policy">Política de Privacidade e Termos de Uso</a>
   </footer>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
