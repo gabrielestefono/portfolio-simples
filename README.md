@@ -19,7 +19,7 @@ Pronto! Agora você deve estar visualizando o website localmente no seu navegado
 
 ## Como usar:
 
-A página do projeto é a layout para criação/seleção de habilidades de um personagem para um jogo, onde você deve mudar as estatísticas para que o personagem tenha um balanceamento desejável.
+O portifólio deve mostrar informações sobre mim, como um resumo da minha carreira, projetos em que já trabalhei, minhas habilidades e informações de contato.
 
 ## Contato
 
